@@ -1,0 +1,48 @@
+.single-comment-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  border: solid #d2d2d2 1px;
+  border-radius: 4px;
+  color: #888;
+}
+
+.content-comment-container {
+  margin: 4px 0 4px 8px;
+}
+
+.content-comment-container>h4 {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.content-comment-container>p {
+  padding-top: 6px;
+}
+
+
+.author-name-container {
+  font-style: italic;
+}
+
+.content-container {
+  font-size: 14px;
+}
+
+.action-container {
+  padding: 3px 5px 0 0;
+  font-size: 18px;
+  color: #03A9F4;
+}
+
+.action-container:hover {
+  cursor: pointer;
+}
+
+.action-container>div:active {
+  opacity: .75;
+  transform: scale(.97);
+  transition: all 100ms ease;
+}
+
